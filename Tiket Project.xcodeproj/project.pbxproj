@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E34248A2566EC3F00D9B296 /* DatabaseHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3424892566EC3F00D9B296 /* DatabaseHost.swift */; };
 		0ED761E12566C85300E19933 /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED761E02566C85300E19933 /* ApplicationCoordinator.swift */; };
 		0ED761EC2566C87F00E19933 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED761EB2566C87F00E19933 /* Router.swift */; };
 		0ED761F12566C88A00E19933 /* RouterImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED761F02566C88A00E19933 /* RouterImp.swift */; };
@@ -65,6 +66,10 @@
 		0ED7633E2566CF6400E19933 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7633D2566CF6400E19933 /* Storyboards.swift */; };
 		0ED7634C2566D33300E19933 /* HeroesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7634B2566D33300E19933 /* HeroesModels.swift */; };
 		0ED763512566D34600E19933 /* HeroStatusModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED763502566D34600E19933 /* HeroStatusModels.swift */; };
+		0ED7635F2566DD9700E19933 /* HeroStatusCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7635E2566DD9700E19933 /* HeroStatusCore.swift */; };
+		0ED763682566E06E00E19933 /* CreateHeroStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED763672566E06E00E19933 /* CreateHeroStatus.swift */; };
+		0ED7636D2566E07600E19933 /* ReadHeroStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7636C2566E07600E19933 /* ReadHeroStatus.swift */; };
+		0ED763752566E08C00E19933 /* DeleteHeroStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED763742566E08C00E19933 /* DeleteHeroStatus.swift */; };
 		0EE936522566C54500FD1E51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE936512566C54500FD1E51 /* AppDelegate.swift */; };
 		0EE936542566C54500FD1E51 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE936532566C54500FD1E51 /* SceneDelegate.swift */; };
 		0EE936562566C54500FD1E51 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE936552566C54500FD1E51 /* ViewController.swift */; };
@@ -98,6 +103,7 @@
 
 /* Begin PBXFileReference section */
 		0B85CD6FCB666E3CD63947ED /* Pods-Tiket Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiket Project.release.xcconfig"; path = "Target Support Files/Pods-Tiket Project/Pods-Tiket Project.release.xcconfig"; sourceTree = "<group>"; };
+		0E3424892566EC3F00D9B296 /* DatabaseHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHost.swift; sourceTree = "<group>"; };
 		0ED761E02566C85300E19933 /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
 		0ED761EB2566C87F00E19933 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		0ED761F02566C88A00E19933 /* RouterImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterImp.swift; sourceTree = "<group>"; };
@@ -156,6 +162,10 @@
 		0ED7633D2566CF6400E19933 /* Storyboards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
 		0ED7634B2566D33300E19933 /* HeroesModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesModels.swift; sourceTree = "<group>"; };
 		0ED763502566D34600E19933 /* HeroStatusModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroStatusModels.swift; sourceTree = "<group>"; };
+		0ED7635E2566DD9700E19933 /* HeroStatusCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroStatusCore.swift; sourceTree = "<group>"; };
+		0ED763672566E06E00E19933 /* CreateHeroStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateHeroStatus.swift; sourceTree = "<group>"; };
+		0ED7636C2566E07600E19933 /* ReadHeroStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadHeroStatus.swift; sourceTree = "<group>"; };
+		0ED763742566E08C00E19933 /* DeleteHeroStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteHeroStatus.swift; sourceTree = "<group>"; };
 		0EE9364E2566C54500FD1E51 /* Tiket Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tiket Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE936512566C54500FD1E51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EE936532566C54500FD1E51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -565,6 +575,42 @@
 			path = RequestObservable;
 			sourceTree = "<group>";
 		};
+		0ED7635B2566DD6E00E19933 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				0ED7635D2566DD7C00E19933 /* HeroStatusEntity */,
+				0E3424892566EC3F00D9B296 /* DatabaseHost.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		0ED7635C2566DD7400E19933 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				0ED7635E2566DD9700E19933 /* HeroStatusCore.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		0ED7635D2566DD7C00E19933 /* HeroStatusEntity */ = {
+			isa = PBXGroup;
+			children = (
+				0ED7635C2566DD7400E19933 /* Entity */,
+				0ED763662566E05C00E19933 /* Controller */,
+			);
+			path = HeroStatusEntity;
+			sourceTree = "<group>";
+		};
+		0ED763662566E05C00E19933 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0ED763672566E06E00E19933 /* CreateHeroStatus.swift */,
+				0ED7636C2566E07600E19933 /* ReadHeroStatus.swift */,
+				0ED763742566E08C00E19933 /* DeleteHeroStatus.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		0EE936452566C54500FD1E51 = {
 			isa = PBXGroup;
 			children = (
@@ -590,6 +636,7 @@
 		0EE936502566C54500FD1E51 /* Tiket Project */ = {
 			isa = PBXGroup;
 			children = (
+				0ED7635B2566DD6E00E19933 /* CoreData */,
 				0ED761DF2566C7CB00E19933 /* Storyboards */,
 				0ED761DE2566C7C200E19933 /* Router */,
 				0ED761DD2566C7BB00E19933 /* Protocols */,
@@ -902,6 +949,8 @@
 				0EE9365C2566C54500FD1E51 /* Tiket_Project.xcdatamodeld in Sources */,
 				0ED762E82566CD9300E19933 /* HeroesResponse.swift in Sources */,
 				0ED762B62566CCB900E19933 /* MutableCollection+Extension.swift in Sources */,
+				0E34248A2566EC3F00D9B296 /* DatabaseHost.swift in Sources */,
+				0ED7635F2566DD9700E19933 /* HeroStatusCore.swift in Sources */,
 				0ED762002566C8C900E19933 /* Presentable.swift in Sources */,
 				0EE936522566C54500FD1E51 /* AppDelegate.swift in Sources */,
 				0ED762312566CA0500E19933 /* HeroCoordinator.swift in Sources */,
@@ -919,10 +968,12 @@
 				0ED762EE2566CDAC00E19933 /* HeroStatusApi.swift in Sources */,
 				0ED762992566CBE100E19933 /* CoordinatorFactoryImp.swift in Sources */,
 				0ED7633E2566CF6400E19933 /* Storyboards.swift in Sources */,
+				0ED763682566E06E00E19933 /* CreateHeroStatus.swift in Sources */,
 				0ED7622A2566C9CD00E19933 /* SplashCoordinatorOutput.swift in Sources */,
 				0ED762162566C98E00E19933 /* SplashView.swift in Sources */,
 				0ED763072566CE2400E19933 /* HTTPClient.swift in Sources */,
 				0ED762782566CB4D00E19933 /* HeroDetailVM.swift in Sources */,
+				0ED7636D2566E07600E19933 /* ReadHeroStatus.swift in Sources */,
 				0ED7632A2566CEB100E19933 /* RequestObservable.swift in Sources */,
 				0ED762392566CA1000E19933 /* HeroCoordinatorOutput.swift in Sources */,
 				0ED762252566C9BD00E19933 /* SplashCoordinator.swift in Sources */,
@@ -938,6 +989,7 @@
 				0EE936542566C54500FD1E51 /* SceneDelegate.swift in Sources */,
 				0ED762F92566CDF200E19933 /* Headers.swift in Sources */,
 				0ED762F32566CDBC00E19933 /* HeroStatusResponse.swift in Sources */,
+				0ED763752566E08C00E19933 /* DeleteHeroStatus.swift in Sources */,
 				0ED7625E2566CAE400E19933 /* ButtonTitleCell.swift in Sources */,
 				0ED761F62566C8B300E19933 /* BaseView.swift in Sources */,
 				0ED7634C2566D33300E19933 /* HeroesModels.swift in Sources */,

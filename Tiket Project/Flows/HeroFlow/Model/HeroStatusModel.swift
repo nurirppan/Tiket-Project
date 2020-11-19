@@ -26,10 +26,10 @@ struct HeroStatusModel {
     let moveSpeed: Int
     let turnRate: Double
     let cmEnabled: Bool
-    let legs, proWin, proPick, heroID: Int
-    let proBan, the1_Pick, the1_Win, the2_Pick: Int
-    let the2_Win, the3_Pick, the3_Win, the4_Pick: Int
-    let the4_Win, the5_Pick, the5_Win, the6_Pick: Int
-    let the6_Win, the7_Pick, the7_Win, the8_Pick: Int
-    let the8_Win, nullPick, nullWin: Int
+//    let legs, proWin, proPick, heroID: Int
+//    let proBan, the1_Pick, the1_Win, the2_Pick: Int
+//    let the2_Win, the3_Pick, the3_Win, the4_Pick: Int
+//    let the4_Win, the5_Pick, the5_Win, the6_Pick: Int
+//    let the6_Win, the7_Pick, the7_Win, the8_Pick: Int
+//    let the8_Win, nullPick, nullWin: Int
 }

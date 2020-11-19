@@ -26,12 +26,12 @@ struct HeroStatusResponse: Codable {
     let moveSpeed: Int
     let turnRate: Double
     let cmEnabled: Bool
-    let legs, proWin, proPick, heroID: Int
-    let proBan, the1_Pick, the1_Win, the2_Pick: Int
-    let the2_Win, the3_Pick, the3_Win, the4_Pick: Int
-    let the4_Win, the5_Pick, the5_Win, the6_Pick: Int
-    let the6_Win, the7_Pick, the7_Win, the8_Pick: Int
-    let the8_Win, nullPick, nullWin: Int
+//    let legs, proWin, proPick, heroID: Int
+//    let proBan, the1_Pick, the1_Win, the2_Pick: Int
+//    let the2_Win, the3_Pick, the3_Win, the4_Pick: Int
+//    let the4_Win, the5_Pick, the5_Win, the6_Pick: Int
+//    let the6_Win, the7_Pick, the7_Win, the8_Pick: Int
+//    let the8_Win, nullPick, nullWin: Int
 
     enum CodingKeys: String, CodingKey {
         case id, name
@@ -59,28 +59,28 @@ struct HeroStatusResponse: Codable {
         case moveSpeed = "move_speed"
         case turnRate = "turn_rate"
         case cmEnabled = "cm_enabled"
-        case legs
-        case proWin = "pro_win"
-        case proPick = "pro_pick"
-        case heroID = "hero_id"
-        case proBan = "pro_ban"
-        case the1_Pick = "1_pick"
-        case the1_Win = "1_win"
-        case the2_Pick = "2_pick"
-        case the2_Win = "2_win"
-        case the3_Pick = "3_pick"
-        case the3_Win = "3_win"
-        case the4_Pick = "4_pick"
-        case the4_Win = "4_win"
-        case the5_Pick = "5_pick"
-        case the5_Win = "5_win"
-        case the6_Pick = "6_pick"
-        case the6_Win = "6_win"
-        case the7_Pick = "7_pick"
-        case the7_Win = "7_win"
-        case the8_Pick = "8_pick"
-        case the8_Win = "8_win"
-        case nullPick = "null_pick"
-        case nullWin = "null_win"
+//        case legs
+//        case proWin = "pro_win"
+//        case proPick = "pro_pick"
+//        case heroID = "hero_id"
+//        case proBan = "pro_ban"
+//        case the1_Pick = "1_pick"
+//        case the1_Win = "1_win"
+//        case the2_Pick = "2_pick"
+//        case the2_Win = "2_win"
+//        case the3_Pick = "3_pick"
+//        case the3_Win = "3_win"
+//        case the4_Pick = "4_pick"
+//        case the4_Win = "4_win"
+//        case the5_Pick = "5_pick"
+//        case the5_Win = "5_win"
+//        case the6_Pick = "6_pick"
+//        case the6_Win = "6_win"
+//        case the7_Pick = "7_pick"
+//        case the7_Win = "7_win"
+//        case the8_Pick = "8_pick"
+//        case the8_Win = "8_win"
+//        case nullPick = "null_pick"
+//        case nullWin = "null_win"
     }
 }

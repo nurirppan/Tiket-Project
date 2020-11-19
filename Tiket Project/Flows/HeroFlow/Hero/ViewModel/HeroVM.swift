@@ -8,10 +8,6 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-
-
-
-
 class HeroVM {
     let heroStatusApi = ApiServiceImp.shared.makeHeroStatusApi()
     
@@ -22,6 +18,8 @@ class HeroVM {
     var tempHeroModels: [HeroesModels] = []
     var tempHeroStatusString: [String] = []
     var tempHeroStatusResponse: [HeroStatusResponse] = []
+    
+    var createHeroStatusVM = CreateHeroStatus()
     
     let vc = UIViewController()
     let dispose = DisposeBag()
@@ -63,6 +61,7 @@ class HeroVM {
                 Loading.dismiss()
                 self.vc.showAlert(title: "\(error)")
             }, onCompleted: {
+                self.saveHeroStatus()
                 let result = self.tempHeroStatusString.removingDuplicates()
                 self.relayHeroStatusModels.onNext(result)
                 self.relayHeroModels.onNext(self.tempHeroModels)
@@ -95,6 +94,10 @@ class HeroVM {
             }
         }
         self.relayHeroModels.onNext(self.tempHeroModels)
+    }
+    
+    private func saveHeroStatus() {
+        self.createHeroStatusVM.createHeroStatus(db: self.tempHeroStatusResponse)
     }
     
 }
