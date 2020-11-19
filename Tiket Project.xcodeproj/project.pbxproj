@@ -223,6 +223,7 @@
 		0ED761D72566C77A00E19933 /* Applications */ = {
 			isa = PBXGroup;
 			children = (
+				0EE936532566C54500FD1E51 /* SceneDelegate.swift */,
 				0EE936512566C54500FD1E51 /* AppDelegate.swift */,
 				0ED761E02566C85300E19933 /* ApplicationCoordinator.swift */,
 			);
@@ -303,6 +304,8 @@
 		0ED761DF2566C7CB00E19933 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				0EE936552566C54500FD1E51 /* ViewController.swift */,
+				0EE936572566C54500FD1E51 /* Main.storyboard */,
 				0ED7633D2566CF6400E19933 /* Storyboards.swift */,
 			);
 			path = Storyboards;
@@ -597,9 +600,6 @@
 				0ED761D82566C78200E19933 /* Extensions */,
 				0ED761D72566C77A00E19933 /* Applications */,
 				0ED761D62566C76F00E19933 /* ApiServices */,
-				0EE936532566C54500FD1E51 /* SceneDelegate.swift */,
-				0EE936552566C54500FD1E51 /* ViewController.swift */,
-				0EE936572566C54500FD1E51 /* Main.storyboard */,
 				0EE9365D2566C54800FD1E51 /* Assets.xcassets */,
 				0EE9365F2566C54800FD1E51 /* LaunchScreen.storyboard */,
 				0EE936622566C54800FD1E51 /* Info.plist */,
