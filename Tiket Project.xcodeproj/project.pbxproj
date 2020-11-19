@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,9 @@
 		0EE936612566C54800FD1E51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE9365F2566C54800FD1E51 /* LaunchScreen.storyboard */; };
 		0EE9366C2566C54800FD1E51 /* Tiket_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE9366B2566C54800FD1E51 /* Tiket_ProjectTests.swift */; };
 		0EE936772566C54800FD1E51 /* Tiket_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE936762566C54800FD1E51 /* Tiket_ProjectUITests.swift */; };
+		1192A48773552E4AA4C6E8EC /* Pods_Tiket_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40952A077C9BD965451D3BE /* Pods_Tiket_Project.framework */; };
+		9163324EAF2B8201A58486A2 /* Pods_Tiket_Project_Tiket_ProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C37F760423FBA4C63FA74475 /* Pods_Tiket_Project_Tiket_ProjectUITests.framework */; };
+		AFDBD970D0A7121DB736907A /* Pods_Tiket_ProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 759B2E9C89A1E2D06B765605 /* Pods_Tiket_ProjectTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B85CD6FCB666E3CD63947ED /* Pods-Tiket Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiket Project.release.xcconfig"; path = "Target Support Files/Pods-Tiket Project/Pods-Tiket Project.release.xcconfig"; sourceTree = "<group>"; };
 		0EE9364E2566C54500FD1E51 /* Tiket Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tiket Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE936512566C54500FD1E51 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EE936532566C54500FD1E51 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +55,14 @@
 		0EE936722566C54800FD1E51 /* Tiket ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tiket ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE936762566C54800FD1E51 /* Tiket_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiket_ProjectUITests.swift; sourceTree = "<group>"; };
 		0EE936782566C54800FD1E51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23BC46704BFCE36097AEC20A /* Pods-Tiket Project-Tiket ProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiket Project-Tiket ProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-Tiket Project-Tiket ProjectUITests/Pods-Tiket Project-Tiket ProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		339A85A414BB4DF6E8B119BA /* Pods-Tiket ProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiket ProjectTests.release.xcconfig"; path = "Target Support Files/Pods-Tiket ProjectTests/Pods-Tiket ProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		500B2FB57102CF6B109D64DE /* Pods-Tiket Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiket Project.debug.xcconfig"; path = "Target Support Files/Pods-Tiket Project/Pods-Tiket Project.debug.xcconfig"; sourceTree = "<group>"; };
+		5954A7BBB354B294209DED32 /* Pods-Tiket ProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiket ProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-Tiket ProjectTests/Pods-Tiket ProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		759B2E9C89A1E2D06B765605 /* Pods_Tiket_ProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tiket_ProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A40952A077C9BD965451D3BE /* Pods_Tiket_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tiket_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37F760423FBA4C63FA74475 /* Pods_Tiket_Project_Tiket_ProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tiket_Project_Tiket_ProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D198A86447F6D1489419F3EC /* Pods-Tiket Project-Tiket ProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiket Project-Tiket ProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tiket Project-Tiket ProjectUITests/Pods-Tiket Project-Tiket ProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1192A48773552E4AA4C6E8EC /* Pods_Tiket_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFDBD970D0A7121DB736907A /* Pods_Tiket_ProjectTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9163324EAF2B8201A58486A2 /* Pods_Tiket_Project_Tiket_ProjectUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				0EE9366A2566C54800FD1E51 /* Tiket ProjectTests */,
 				0EE936752566C54800FD1E51 /* Tiket ProjectUITests */,
 				0EE9364F2566C54500FD1E51 /* Products */,
+				7CECB38C1F83AC476B6E2A77 /* Pods */,
+				BA7559427845011C60A3D70D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +148,29 @@
 			path = "Tiket ProjectUITests";
 			sourceTree = "<group>";
 		};
+		7CECB38C1F83AC476B6E2A77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				500B2FB57102CF6B109D64DE /* Pods-Tiket Project.debug.xcconfig */,
+				0B85CD6FCB666E3CD63947ED /* Pods-Tiket Project.release.xcconfig */,
+				D198A86447F6D1489419F3EC /* Pods-Tiket Project-Tiket ProjectUITests.debug.xcconfig */,
+				23BC46704BFCE36097AEC20A /* Pods-Tiket Project-Tiket ProjectUITests.release.xcconfig */,
+				5954A7BBB354B294209DED32 /* Pods-Tiket ProjectTests.debug.xcconfig */,
+				339A85A414BB4DF6E8B119BA /* Pods-Tiket ProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA7559427845011C60A3D70D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A40952A077C9BD965451D3BE /* Pods_Tiket_Project.framework */,
+				C37F760423FBA4C63FA74475 /* Pods_Tiket_Project_Tiket_ProjectUITests.framework */,
+				759B2E9C89A1E2D06B765605 /* Pods_Tiket_ProjectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EE9367B2566C54800FD1E51 /* Build configuration list for PBXNativeTarget "Tiket Project" */;
 			buildPhases = (
+				62D1BA594DFF87DED184A747 /* [CP] Check Pods Manifest.lock */,
 				0EE9364A2566C54500FD1E51 /* Sources */,
 				0EE9364B2566C54500FD1E51 /* Frameworks */,
 				0EE9364C2566C54500FD1E51 /* Resources */,
+				DF0683215CAD4F8116658836 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EE9367E2566C54800FD1E51 /* Build configuration list for PBXNativeTarget "Tiket ProjectTests" */;
 			buildPhases = (
+				FB045BA103645C6F197DF383 /* [CP] Check Pods Manifest.lock */,
 				0EE936632566C54800FD1E51 /* Sources */,
 				0EE936642566C54800FD1E51 /* Frameworks */,
 				0EE936652566C54800FD1E51 /* Resources */,
@@ -173,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0EE936812566C54800FD1E51 /* Build configuration list for PBXNativeTarget "Tiket ProjectUITests" */;
 			buildPhases = (
+				0FD53F8FD073738186886FC5 /* [CP] Check Pods Manifest.lock */,
 				0EE9366E2566C54800FD1E51 /* Sources */,
 				0EE9366F2566C54800FD1E51 /* Frameworks */,
 				0EE936702566C54800FD1E51 /* Resources */,
+				700EDE21F2F499554A8A1F99 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,6 +300,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FD53F8FD073738186886FC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tiket Project-Tiket ProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62D1BA594DFF87DED184A747 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tiket Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		700EDE21F2F499554A8A1F99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tiket Project-Tiket ProjectUITests/Pods-Tiket Project-Tiket ProjectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tiket Project-Tiket ProjectUITests/Pods-Tiket Project-Tiket ProjectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tiket Project-Tiket ProjectUITests/Pods-Tiket Project-Tiket ProjectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF0683215CAD4F8116658836 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tiket Project/Pods-Tiket Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tiket Project/Pods-Tiket Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tiket Project/Pods-Tiket Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB045BA103645C6F197DF383 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tiket ProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0EE9364A2566C54500FD1E51 /* Sources */ = {
@@ -370,7 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -425,7 +573,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,13 +585,14 @@
 		};
 		0EE9367C2566C54800FD1E51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 500B2FB57102CF6B109D64DE /* Pods-Tiket Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 887YABDAR6;
 				INFOPLIST_FILE = "Tiket Project/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,19 +600,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nurirppan.Tiket-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0EE9367D2566C54800FD1E51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B85CD6FCB666E3CD63947ED /* Pods-Tiket Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 887YABDAR6;
 				INFOPLIST_FILE = "Tiket Project/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,12 +621,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nurirppan.Tiket-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		0EE9367F2566C54800FD1E51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5954A7BBB354B294209DED32 /* Pods-Tiket ProjectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -499,6 +650,7 @@
 		};
 		0EE936802566C54800FD1E51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 339A85A414BB4DF6E8B119BA /* Pods-Tiket ProjectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -521,6 +673,7 @@
 		};
 		0EE936822566C54800FD1E51 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D198A86447F6D1489419F3EC /* Pods-Tiket Project-Tiket ProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +694,7 @@
 		};
 		0EE936832566C54800FD1E51 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23BC46704BFCE36097AEC20A /* Pods-Tiket Project-Tiket ProjectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
